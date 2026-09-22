@@ -3,25 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #080808;
+  --foreground: #faf9f5;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Custom minimal luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+::-webkit-scrollbar-track {
+  background: #080808;
 }
 
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #421017;
+}
+
+/* Ensure smooth image transitions without layout shifts */
+img {
+  image-rendering: auto;
+}
+
+/* Custom typographic utilities */
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .tracking-ultra {
+    letter-spacing: 0.35em;
   }
 }
