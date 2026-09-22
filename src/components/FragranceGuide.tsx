@@ -2,8 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { MessageCircle, ArrowRight } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { PRODUCTS, CATEGORY_GUIDES } from "@/data/products";
 import { getProductInquiryUrl } from "@/config/site";
 

@@ -17,7 +17,8 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "GAZZA PERFUMES | Scents That Leave A Mark",
+  metadataBase: new URL("https://gazzaperfumes.com"),
+  title: "GAZZA PERFUMES | Fragrance of Heaven",
   description:
     "Discover Gazza’s exclusive collection of inspired luxury fragrances. Seven artisanal scent profiles crafted for individuality, confidence, and sovereign presence. Direct order & consultation on WhatsApp.",
   keywords: [
