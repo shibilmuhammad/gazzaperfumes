@@ -60,6 +60,13 @@ export const metadata: Metadata = {
       "Discover Gazza Perfumes — seven inspired fragrances crafted for every mood.",
     images: ["https://gazzaperfumes.com/images/og-image.jpg"],
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png" }],
+  },
   robots: {
     index: true,
     follow: true,
