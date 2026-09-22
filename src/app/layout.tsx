@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://gazzaperfumes.com"),
   title: "Gazza Perfumes | Premium Fragrances",
   description:
-    "Discover 7 premium fragrances. Find your favourite and order on WhatsApp.",
+    "Discover 7 premium fragrances. Find your favourite luxury perfume.",
   keywords: [
     "Gazza Perfumes",
     "luxury perfumes",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gazza Perfumes | Premium Fragrances",
     description:
-      "Discover 7 premium fragrances. Find your favourite and order on WhatsApp.",
+      "Discover 7 premium fragrances. Find your favourite luxury perfume.",
     url: "https://gazzaperfumes.com",
     siteName: "Gazza Perfumes",
     locale: "en_US",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gazza Perfumes | Premium Fragrances",
     description:
-      "Discover 7 premium fragrances. Find your favourite and order on WhatsApp.",
+      "Discover 7 premium fragrances. Find your favourite luxury perfume.",
     images: ["https://gazzaperfumes.com/images/og-image.jpg"],
   },
   icons: {
