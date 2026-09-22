@@ -18,9 +18,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://gazzaperfumes.com"),
-  title: "Gazza Perfumes | Scents That Leave A Mark",
+  title: "Gazza Perfumes | Premium Fragrances",
   description:
-    "Discover Gazza Perfumes — seven inspired fragrances crafted for every mood.",
+    "Discover 7 premium fragrances. Find your favourite and order on WhatsApp.",
   keywords: [
     "Gazza Perfumes",
     "luxury perfumes",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Gazza Perfumes" }],
   openGraph: {
-    title: "Gazza Perfumes | Scents That Leave A Mark",
+    title: "Gazza Perfumes | Premium Fragrances",
     description:
-      "Discover Gazza Perfumes — seven inspired fragrances crafted for every mood.",
+      "Discover 7 premium fragrances. Find your favourite and order on WhatsApp.",
     url: "https://gazzaperfumes.com",
     siteName: "Gazza Perfumes",
     locale: "en_US",
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         type: "image/jpeg",
-        alt: "Gazza Perfumes | Scents That Leave A Mark",
+        alt: "Gazza Perfumes | Premium Fragrances",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gazza Perfumes | Scents That Leave A Mark",
+    title: "Gazza Perfumes | Premium Fragrances",
     description:
-      "Discover Gazza Perfumes — seven inspired fragrances crafted for every mood.",
+      "Discover 7 premium fragrances. Find your favourite and order on WhatsApp.",
     images: ["https://gazzaperfumes.com/images/og-image.jpg"],
   },
   icons: {
