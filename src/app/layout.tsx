@@ -18,44 +18,47 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://gazzaperfumes.com"),
-  title: "GAZZA PERFUMES | Fragrance of Heaven",
+  title: "Gazza Perfumes | Scents That Leave A Mark",
   description:
-    "Discover Gazza’s exclusive collection of inspired luxury fragrances. Seven artisanal scent profiles crafted for individuality, confidence, and sovereign presence. Direct order & consultation on WhatsApp.",
+    "Discover Gazza Perfumes — seven inspired fragrances crafted for every mood.",
   keywords: [
     "Gazza Perfumes",
     "luxury perfumes",
     "inspired fragrances",
-    "extrait de parfum",
+    "eau de parfum",
     "LY 19",
     "Amber Kiss",
     "Hot Crush",
     "Khalifa",
-    "perfume boutique",
+    "Hind Rajab",
+    "Party Mood",
+    "Midnight",
   ],
   authors: [{ name: "Gazza Perfumes" }],
   openGraph: {
-    title: "GAZZA PERFUMES | Scents That Leave A Mark",
+    title: "Gazza Perfumes | Scents That Leave A Mark",
     description:
-      "Seven fragrances. Seven moods. Discover Gazza’s inspired collection crafted for presence and individuality.",
+      "Discover Gazza Perfumes — seven inspired fragrances crafted for every mood.",
     url: "https://gazzaperfumes.com",
     siteName: "Gazza Perfumes",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/images/products/ly-19.png",
+        url: "https://gazzaperfumes.com/images/og-image.jpg",
         width: 1200,
-        height: 1200,
-        alt: "Gazza Perfumes Signature Collection",
+        height: 630,
+        type: "image/jpeg",
+        alt: "Gazza Perfumes | Scents That Leave A Mark",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GAZZA PERFUMES | Scents That Leave A Mark",
+    title: "Gazza Perfumes | Scents That Leave A Mark",
     description:
-      "Seven fragrances. Seven moods. Discover Gazza’s inspired collection crafted for presence and individuality.",
-    images: ["/images/products/ly-19.png"],
+      "Discover Gazza Perfumes — seven inspired fragrances crafted for every mood.",
+    images: ["https://gazzaperfumes.com/images/og-image.jpg"],
   },
   robots: {
     index: true,
