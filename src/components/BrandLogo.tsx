@@ -21,9 +21,9 @@ export default function BrandLogo({
   const logoSrc = "/images/brand/gazza-logo.png";
 
   const sizeClasses = {
-    sm: "h-10 w-16 sm:h-11 sm:w-20",
-    md: "h-12 w-20 sm:h-14 sm:w-24",
-    lg: "h-20 w-32 sm:h-24 sm:w-36",
+    sm: "h-8 w-18 sm:h-9 sm:w-20",
+    md: "h-9 w-22 sm:h-11 sm:w-28",
+    lg: "h-14 w-32 sm:h-16 sm:w-40",
   }[size];
 
   return (
@@ -34,14 +34,14 @@ export default function BrandLogo({
     >
       {!imageError ? (
         <div
-          className={`relative ${sizeClasses} transition-transform duration-300 group-hover:scale-[1.02] mix-blend-screen`}
+          className={`relative ${sizeClasses} transition-transform duration-300 group-hover:scale-[1.02]`}
         >
           <Image
             src={logoSrc}
             alt={`${BRAND_NAME} - Fragrance of Heaven`}
             fill
             priority
-            className="object-contain object-left filter contrast-125"
+            className="object-contain object-left"
             onError={() => setImageError(true)}
           />
         </div>
